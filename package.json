@@ -1,0 +1,25 @@
+{
+  "bin": {
+    "client": "./client.js",
+    "server": "./server.js"
+  },
+  "dependencies": {
+    "@xen-orchestra/log": "^0.3.0",
+    "@xen-orchestra/self-signed": "^0.1.0",
+    "http-request-plus": "^0.14.0",
+    "http-server-plus": "^0.11.0",
+    "promise-toolbox": "^0.21.0",
+    "proxy-agent": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.13.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.1.0",
+    "eslint-plugin-promise": "^6.0.0"
+  },
+  "engines": {
+    "node": ">=10"
+  }
+}
